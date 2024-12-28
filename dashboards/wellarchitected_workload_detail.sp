@@ -2,7 +2,7 @@
 // But from aws_wellarchitected_lens_review, all risk types are returned even when their count is 0
 dashboard "wellarchitected_workload_detail" {
 
-  title = "AWS Well-Architected Workload Detail"
+  title = "DevIQ Well-Architected Workload Detail"
   documentation = file("./dashboards/docs/wellarchitected_workload_detail.md")
 
   tags = merge(local.wellarchitected_common_tags, {
