@@ -1,6 +1,6 @@
 mod "aws_well_architected" {
   # Hub metadata
-  title         = "AWS Well-Architected"
+  title         = "DevIQ Well-Architected"
   description   = "Run controls across all of your AWS accounts to check if they are following AWS Well-Architected best practices using Powerpipe and Steampipe."
   color         = "#FF9900"
   documentation = file("./docs/index.md")
